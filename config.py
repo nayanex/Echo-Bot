@@ -13,5 +13,6 @@ class DefaultConfig:
     """ Bot Configuration """
 
     PORT = 3978
+    HOST = "https://bot-app-service-rs.azurewebsites.net"
     APP_ID = os.environ.get("MicrosoftAppId", "")
     APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "")
