@@ -79,3 +79,11 @@ cookiecutter https://github.com/microsoft/BotBuilder-Samples/releases/download/T
 
 * **bot_name:** *echo_bot*
 * **bot_description:** *A bot that echoes back user response.*
+
+## Test the Bot
+
+Install ngrok via Homebrew
+
+```bash
+brew install ngrok/ngrok/ngrok
+```
