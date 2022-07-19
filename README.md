@@ -49,6 +49,7 @@ To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](htt
 
 ## My Steps
 
+[Microsoft Resource](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-create-bot?view=azure-bot-service-4.0&tabs=python%2Cvs)
 ### Create and enable a virtual environment
 
 #### macOS/Linux
@@ -60,7 +61,6 @@ source venv/bin/activate
 
 ```
 pip3 install botbuilder-core
-pip3 install asyncio
 pip3 install aiohttp
 pip3 install cookiecutter==1.7.0
 ```
