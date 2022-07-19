@@ -57,6 +57,7 @@ To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](htt
 ```
 python3 -m venv venv
 source venv/bin/activate
+venv/bin/pip3 install -r requirements.txt 
 ```
 
 ```

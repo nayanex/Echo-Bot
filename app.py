@@ -19,10 +19,6 @@ from botbuilder.schema import Activity, ActivityTypes
 from bots import EchoBot
 from config import DefaultConfig
 
-import subprocess
-
-subprocess.run(["pip", "uninstall", "asyncio"])
-
 CONFIG = DefaultConfig()
 
 # Create adapter.
@@ -88,6 +84,6 @@ APP.router.add_post("/api/messages", messages)
 if __name__ == "__main__":
     try:
         #web.run_app(APP)
-        web.run_app(APP, host='0.0.0.0', port='8080')
+        web.run_app(APP, host='0.0.0.0', port='5000')
     except Exception as error:
         raise error
