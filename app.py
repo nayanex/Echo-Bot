@@ -83,6 +83,6 @@ APP.router.add_post("/api/messages", messages)
 
 if __name__ == "__main__":
     try:
-        web.run_app(s)
+        web.run_app()
     except Exception as error:
         raise error
