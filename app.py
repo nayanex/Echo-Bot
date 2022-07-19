@@ -19,6 +19,10 @@ from botbuilder.schema import Activity, ActivityTypes
 from bots import EchoBot
 from config import DefaultConfig
 
+import subprocess
+
+subprocess.run(["pip", "uninstall", "asyncio"])
+
 CONFIG = DefaultConfig()
 
 # Create adapter.

@@ -4,6 +4,9 @@
 
 import os
 from dotenv import load_dotenv
+# import subprocess
+
+# subprocess.run(["pip", "uninstall", "asyncio"])
 
 """ Bot Configuration """
 basedir = os.path.abspath(os.path.dirname(__file__))
