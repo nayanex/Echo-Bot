@@ -87,3 +87,15 @@ Install ngrok via Homebrew
 ```bash
 brew install ngrok/ngrok/ngrok
 ```
+
+### How to find the fucking `MicrosoftAppPassword`?
+
+That's almost a mystery, cause Microsoft documentation about this SUCKS!
+
+```bash
+1. go to your Azure bot Configuration (the same place where you have the field "Messaging endpoint")
+2. Next to the label for the field "Microsoft App ID (Manage)", click on the hyperlink "Manage"
+3. Click on the section "Certificate & Secrets"
+4. Go to the tab "Client Secrets"
+5. Generate a "New client secret", copy the "Value" column
+```
